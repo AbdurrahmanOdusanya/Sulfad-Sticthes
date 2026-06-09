@@ -1,0 +1,6 @@
+{
+  "name": "Sulfad Stitches",
+  "description": "Premium men's luxury fashion and custom tailoring brand specializing in Kaftans, Senator wear, Agbada, and bespoke traditional outfits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
