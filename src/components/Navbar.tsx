@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, Phone, ShoppingBag } from 'lucide-react';
 import { BUSINESS_INFO } from '../data';
-import Logo from './Logo';
 
 interface NavbarProps {
   activeSection: string;
@@ -70,7 +69,12 @@ export default function Navbar({ activeSection }: NavbarProps) {
             onClick={(e) => handleScrollTo(e, '#home')}
             className="flex items-center gap-2.5 group"
           >
-            <Logo size={32} />
+            <img
+              id="navbar-logo-img"
+              src="brand-logo.svg"
+              alt="Sulfad Stitches Logo"
+              className="h-8 w-auto object-contain transition-all duration-300 transform hover:scale-105"
+            />
             <span className="font-serif text-lg sm:text-xl font-black tracking-wider text-brand-burgundy group-hover:text-brand-gold transition-colors duration-300 whitespace-nowrap">
               SULFAD STITCHES
             </span>

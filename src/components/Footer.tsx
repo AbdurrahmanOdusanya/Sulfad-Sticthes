@@ -49,7 +49,13 @@ export default function Footer() {
           
           {/* Column 1: Brand Logo & Mission */}
           <div className="lg:col-span-4 space-y-4">
-            <a href="#home" className="flex items-center gap-2 group">
+            <a href="#home" className="flex items-center gap-2.5 group">
+              <img
+                id="footer-logo-img"
+                src="brand-logo.svg"
+                alt="Sulfad Stitches Logo"
+                className="h-9 w-auto object-contain transition-all duration-300 transform hover:scale-105"
+              />
               <span className="font-serif text-2xl font-black tracking-wider text-brand-burgundy group-hover:text-brand-gold transition-colors duration-300 whitespace-nowrap">
                 SULFAD STITCHES
               </span>

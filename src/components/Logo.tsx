@@ -21,7 +21,7 @@ export default function Logo({ className = '', size = 48 }: LogoProps) {
         <defs>
           <mask id="logo-s-mask">
             {/* Draw a white box over the entire shield area so it's fully visible by default */}
-            <rect x="0" y="32" width="100" height="108" fill="#FFFFFF" />
+            <rect x="0" y="20" width="100" height="120" fill="#FFFFFF" />
             
             {/* Draw the "S" cutout channel in solid black so it becomes 100% transparent */}
             <path
@@ -43,23 +43,24 @@ export default function Logo({ className = '', size = 48 }: LogoProps) {
 
         {/* Crown Crest (Top Separated Element) */}
         <path
-          d="M 50 2 
-             C 34 23, 11 25, 0 16.5 
-             C 10 31, 26 31.5, 50 31.5 
-             C 74 31.5, 90 31, 100 16.5 
-             C 89 25, 66 23, 50 2 Z"
+          d="M 50 0 
+             C 65 22, 85 22, 100 10 
+             C 99 18, 95 24, 90 28 
+             C 75 15, 25 15, 10 28 
+             C 5 24, 1 18, 0 10 
+             C 15 22, 35 22, 50 0 Z"
           fill="#5A0C1A"
         />
 
         {/* Shield Element, masked with our transparent S-cutout */}
         <path
-          d="M 50 39.5 
-             L 90 38.5 
-             C 92 55, 91 65, 90 75 
-             C 88 95, 75 115, 50 128 
-             C 25 115, 12 95, 10 75 
-             C 9 65, 8 55, 10 38.5 
-             Z"
+          d="M 50 26 
+             C 25 24, 8 35, 8 35 
+             C 6 48, 6 62, 8 75 
+             C 10 102, 26 122, 50 132 
+             C 74 122, 90 102, 92 75 
+             C 94 62, 94 48, 92 35 
+             C 92 35, 75 24, 50 26 Z"
           fill="#5A0C1A"
           mask="url(#logo-s-mask)"
         />
