@@ -35,7 +35,7 @@ export default function Gallery() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
         
         {/* Section Header */}
-        <div className="text-center max-w-2xl mx-auto mb-12">
+        <div className="text-center max-w-5xl mx-auto mb-12">
           <div className="inline-flex items-center space-x-2 mb-4">
             <div className="h-[1px] w-6 bg-brand-gold" />
             <span className="font-title text-[10px] sm:text-xs tracking-wider text-brand-burgundy uppercase font-bold">
@@ -44,11 +44,11 @@ export default function Gallery() {
             <div className="h-[1px] w-6 bg-brand-gold" />
           </div>
           
-          <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal text-brand-burgundy tracking-tight leading-tight mb-4">
+          <h2 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal text-brand-burgundy tracking-tight leading-tight mb-4 whitespace-normal lg:whitespace-nowrap">
             See Our <span className="font-bold text-brand-gold">Native Wear Designs</span>
           </h2>
           
-          <p className="font-sans text-brand-dark-grey/75 text-sm sm:text-base leading-relaxed font-normal">
+          <p className="font-sans text-brand-dark-grey/75 text-sm sm:text-base leading-relaxed font-normal whitespace-normal lg:whitespace-nowrap">
             Browse through our classic sewing styles. Click on &ldquo;Order This Style&rdquo; to chat with us about tailoring it for you.
           </p>
         </div>

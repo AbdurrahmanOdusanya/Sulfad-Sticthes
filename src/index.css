@@ -75,4 +75,21 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background-size: 20px 20px;
 }
 
+/* Specific PNG Image Safe-Guards */
+.nav-logo-img {
+  height: 48px;            /* Forces a strict vertical height constraint */
+  width: auto;             /* Tells the browser to natively calculate the width based on the PNG aspect ratio */
+  object-fit: contain;     /* Prevents your PNG from stretching if the navbar shrinks */
+  image-rendering: -webkit-optimize-contrast; /* Keeps the PNG details razor-sharp on retina screens */
+  display: block;
+}
+
+/* Mobile Screen Tuning */
+@media (max-width: 768px) {
+  .nav-logo-img {
+    height: 38px; /* Scales down logo automatically for phone viewports */
+  }
+}
+
+
 

@@ -71,9 +71,10 @@ export default function Navbar({ activeSection }: NavbarProps) {
           >
             <img
               id="navbar-logo-img"
-              src="brand-logo.svg"
+              src="https://i.postimg.cc/hjpDjwCG/logo.png"
               alt="Sulfad Stitches Logo"
-              className="h-8 w-auto object-contain transition-all duration-300 transform hover:scale-105"
+              referrerPolicy="no-referrer"
+              className="nav-logo-img transition-all duration-300 transform hover:scale-105"
             />
             <span className="font-serif text-lg sm:text-xl font-black tracking-wider text-brand-burgundy group-hover:text-brand-gold transition-colors duration-300 whitespace-nowrap">
               SULFAD STITCHES
@@ -108,46 +109,50 @@ export default function Navbar({ activeSection }: NavbarProps) {
             })}
           </nav>
 
-          {/* Quick Contact CTA */}
-          <div className="hidden md:flex items-center space-x-4">
-            <div className="flex items-center space-x-2">
-              <Phone size={14} className="text-brand-burgundy shrink-0" />
-              <div className="flex flex-col text-left">
-                <a
-                  href={`tel:${BUSINESS_INFO.phones[0]}`}
-                  className="text-brand-dark-grey/95 hover:text-brand-burgundy transition-colors duration-300 text-[11px] sm:text-[12px] font-bold leading-tight"
-                >
-                  {BUSINESS_INFO.phones[0]}
-                </a>
-                <a
-                  href={`tel:${BUSINESS_INFO.phones[1]}`}
-                  className="text-brand-dark-grey/95 hover:text-brand-burgundy transition-colors duration-300 text-[11px] sm:text-[12px] font-bold leading-tight mt-0.5"
-                >
-                  {BUSINESS_INFO.phones[1]}
-                </a>
+          {/* Right side container to keep CTAs and Menu Button neatly spaced across all modes */}
+          <div className="flex items-center space-x-4 md:space-x-6">
+            {/* Quick Contact CTA */}
+            <div className="hidden md:flex items-center space-x-4 lg:space-x-5">
+              <div className="flex items-center space-x-2.5 sm:space-x-3">
+                <Phone size={14} className="text-brand-burgundy shrink-0 mr-1.5" />
+                <div className="flex flex-col text-left">
+                  <a
+                    href={`tel:${BUSINESS_INFO.phones[0]}`}
+                    className="text-brand-dark-grey/95 hover:text-brand-burgundy transition-colors duration-300 text-[11px] sm:text-[12px] font-bold leading-tight"
+                  >
+                    {BUSINESS_INFO.phones[0]}
+                  </a>
+                  <a
+                    href={`tel:${BUSINESS_INFO.phones[1]}`}
+                    className="text-brand-dark-grey/95 hover:text-brand-burgundy transition-colors duration-300 text-[11px] sm:text-[12px] font-bold leading-tight mt-0.5"
+                  >
+                    {BUSINESS_INFO.phones[1]}
+                  </a>
+                </div>
               </div>
+              <a
+                href={BUSINESS_INFO.primaryWhatsAppLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-brand-burgundy hover:bg-[#400711] text-white font-title text-[10px] uppercase font-bold tracking-widest px-4 py-2 sm:px-5 sm:py-2.5 rounded-none border border-brand-burgundy shadow-sm transition-all duration-300 flex items-center space-x-1.5 cursor-pointer whitespace-nowrap"
+              >
+                <ShoppingBag size={12} className="-mt-0.5" />
+                <span className="hidden sm:inline">Chat on WhatsApp</span>
+                <span className="sm:hidden">Chat</span>
+              </a>
             </div>
-            <a
-              href={BUSINESS_INFO.primaryWhatsAppLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-brand-burgundy hover:bg-[#400711] text-white font-title text-[10px] uppercase font-bold tracking-widest px-5 py-2.5 rounded-none border border-brand-burgundy shadow-sm transition-all duration-300 flex items-center space-x-1.5 cursor-pointer"
-            >
-              <ShoppingBag size={12} className="-mt-0.5" />
-              <span>Chat on WhatsApp</span>
-            </a>
-          </div>
 
-          {/* Mobile Menu Button */}
-          <div className="lg:hidden">
-            <button
-              id="menu-btn"
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-brand-dark-grey hover:text-brand-burgundy transition-colors p-2 focus:outline-none"
-              aria-label="Toggle menu"
-            >
-              {isOpen ? <X size={22} /> : <Menu size={22} />}
-            </button>
+            {/* Mobile Menu Button */}
+            <div className="lg:hidden">
+              <button
+                id="menu-btn"
+                onClick={() => setIsOpen(!isOpen)}
+                className="text-brand-dark-grey hover:text-brand-burgundy transition-colors p-2 focus:outline-none flex items-center justify-center"
+                aria-label="Toggle menu"
+              >
+                {isOpen ? <X size={22} /> : <Menu size={22} />}
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -186,16 +191,16 @@ export default function Navbar({ activeSection }: NavbarProps) {
                   <div className="flex flex-col space-y-2 pl-1">
                     <a
                       href={`tel:${BUSINESS_INFO.phones[0]}`}
-                      className="flex items-center space-x-2 text-brand-dark-grey text-xs hover:text-brand-burgundy transition-colors font-bold"
+                      className="flex items-center space-x-3.5 text-brand-dark-grey text-xs hover:text-brand-burgundy transition-colors font-bold"
                     >
-                      <Phone size={13} className="text-brand-burgundy" />
+                      <Phone size={13} className="text-brand-burgundy shrink-0 mr-1" />
                       <span>{BUSINESS_INFO.phones[0]}</span>
                     </a>
                     <a
                       href={`tel:${BUSINESS_INFO.phones[1]}`}
-                      className="flex items-center space-x-2 text-brand-dark-grey text-xs hover:text-brand-burgundy transition-colors font-bold"
+                      className="flex items-center space-x-3.5 text-brand-dark-grey text-xs hover:text-brand-burgundy transition-colors font-bold"
                     >
-                      <Phone size={13} className="text-brand-burgundy" />
+                      <Phone size={13} className="text-brand-burgundy shrink-0 mr-1" />
                       <span>{BUSINESS_INFO.phones[1]}</span>
                     </a>
                   </div>

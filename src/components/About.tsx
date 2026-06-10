@@ -97,7 +97,7 @@ export default function About() {
             <div className="mt-10 flex items-center justify-between pt-6 border-t border-brand-gold/20">
               <div>
                 <p className="font-title text-[10px] uppercase tracking-wider text-brand-dark-grey/50">Founder &amp; Owner</p>
-                <p className="font-serif text-base text-brand-burgundy font-bold mt-0.5">Fadlullah I. Sulaimon</p>
+                <p className="font-serif text-base text-brand-burgundy font-bold mt-0.5">Fadlullah O. Sulaimon</p>
               </div>
               <div className="text-right">
                 <span className="font-title text-[9px] uppercase tracking-wider text-brand-dark-grey/50 block font-bold">SULFAD STITCHES</span>

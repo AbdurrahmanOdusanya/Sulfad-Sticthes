@@ -33,7 +33,7 @@ export default function WhyChooseUs() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
         
         {/* Header */}
-        <div className="text-center max-w-2xl mx-auto mb-12">
+        <div className="text-center max-w-5xl mx-auto mb-12">
           <div className="inline-flex items-center space-x-2 mb-4">
             <div className="h-[1px] w-6 bg-brand-gold" />
             <span className="font-title text-[10px] sm:text-xs tracking-wider text-brand-burgundy uppercase font-bold">
@@ -42,11 +42,11 @@ export default function WhyChooseUs() {
             <div className="h-[1px] w-6 bg-brand-gold" />
           </div>
 
-          <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal text-brand-burgundy tracking-tight leading-tight mb-4">
+          <h2 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal text-brand-burgundy tracking-tight leading-tight mb-4 whitespace-normal lg:whitespace-nowrap">
             Why Choose <span className="font-bold text-brand-gold">Sulfad Stitches</span>
           </h2>
 
-          <p className="font-sans text-brand-dark-grey/70 text-sm sm:text-base font-normal max-w-md mx-auto leading-relaxed">
+          <p className="font-sans text-brand-dark-grey/70 text-sm sm:text-base font-normal mx-auto leading-relaxed whitespace-normal lg:whitespace-nowrap">
             We don&apos;t just sew clothes — we build confidence and respect into every single outfit we make.
           </p>
         </div>
