@@ -6,17 +6,17 @@ export default function Services() {
   const ourServices = [
     {
       name: 'Ready to Wear',
-      icon: <Shirt className="w-8 h-8 text-brand-burgundy" />,
+      icon: Shirt,
       tag: 'Pick and Wear',
     },
     {
       name: 'Sew to Fit / Body Fit',
-      icon: <Scissors className="w-8 h-8 text-brand-burgundy" />,
+      icon: Scissors,
       tag: 'Custom Sewing',
     },
     {
       name: 'Embellishments',
-      icon: <Sparkles className="w-8 h-8 text-brand-burgundy" />,
+      icon: Sparkles,
       tag: 'Finishing Touches',
     },
   ];
@@ -63,7 +63,7 @@ export default function Services() {
             >
               {/* Icon Container */}
               <div className="mb-6 p-4 rounded-none bg-white border border-brand-gold/15 text-brand-burgundy group-hover:bg-brand-burgundy group-hover:text-white transition-all duration-350">
-                {service.icon}
+                <service.icon className="w-8 h-8" />
               </div>
 
               {/* Sub tag */}
