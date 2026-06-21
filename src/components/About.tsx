@@ -18,7 +18,7 @@ export default function About() {
             {/* Main Craft Image */}
             <div className="relative w-4/5 aspect-[4/5] overflow-hidden border border-brand-gold/20 shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&q=80&w=800"
+                src="https://i.postimg.cc/htYh6czn/download-(3).jpg"
                 alt="Tailor working on fabric pattern"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
@@ -29,7 +29,7 @@ export default function About() {
             {/* Overlapping Detail Image */}
             <div className="absolute right-0 bottom-[-20px] w-1/2 aspect-[1/1] overflow-hidden border border-brand-gold/20 shadow-lg z-20">
               <img
-                src="https://images.unsplash.com/photo-1598257006458-087169a1f08d?auto=format&fit=crop&q=80&w=500"
+                src="https://i.postimg.cc/nhrC3Czc/Pinterest.jpg"
                 alt="Detailed sewing stitch close-up"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

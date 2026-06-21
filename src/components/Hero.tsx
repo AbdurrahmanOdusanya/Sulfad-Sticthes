@@ -145,7 +145,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-t from-brand-burgundy/80 via-transparent to-transparent z-10 pointer-events-none" />
 
               <img
-                src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&q=80&w=800"
+                src="https://i.postimg.cc/hvNGX09w/download.jpg"
                 alt="Men's Premium Custom White Native Outfit"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transform scale-102 group-hover:scale-100 transition-transform duration-700"

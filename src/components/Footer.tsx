@@ -157,8 +157,20 @@ export default function Footer() {
 
         {/* Bottom copyright & back to top */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 font-sans text-[10px] uppercase tracking-wider text-brand-dark-grey/60 font-bold">
-          <div>
-            &copy; 2026 Sulfad Stitches. All Rights Reserved.
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center sm:text-left">
+            <span>&copy; 2026 Sulfad Stitches. All Rights Reserved.</span>
+            <span className="hidden sm:inline text-brand-gold/55">|</span>
+            <span>
+              Made by{' '}
+              <a 
+                href="https://github.com/AbdurrahmanOdusanya" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-brand-burgundy text-brand-burgundy/80 transition-colors underline underline-offset-2 decoration-brand-gold/40 hover:decoration-brand-burgundy font-extrabold"
+              >
+                Yerima
+              </a>
+            </span>
           </div>
           <div className="flex items-center space-x-6">
             <span>Premium Traditional Wear</span>

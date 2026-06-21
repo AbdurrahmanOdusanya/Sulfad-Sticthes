@@ -1,26 +1,10 @@
-import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { MessageSquare } from 'lucide-react';
 import { GALLERY_ITEMS, getWhatsAppUrl } from '../data';
 import { GalleryItem } from '../types';
 
-type CategoryFilter = 'all' | 'kaftans' | 'senator-wears' | 'agbada' | 'wedding' | 'corporate';
-
 export default function Gallery() {
-  const [selectedCategory, setSelectedCategory] = useState<CategoryFilter>('all');
-
-  const filterTabs: { label: string; value: CategoryFilter }[] = [
-    { label: 'All Styles', value: 'all' },
-    { label: 'Kaftans', value: 'kaftans' },
-    { label: 'Senator Wears', value: 'senator-wears' },
-    { label: 'Agbada', value: 'agbada' },
-    { label: 'Wedding Styles', value: 'wedding' },
-    { label: 'Corporate Styles', value: 'corporate' },
-  ];
-
-  const filteredItems = selectedCategory === 'all'
-    ? GALLERY_ITEMS
-    : GALLERY_ITEMS.filter(item => item.category === selectedCategory);
+  const filteredItems = GALLERY_ITEMS;
 
   return (
     <section
@@ -51,26 +35,6 @@ export default function Gallery() {
           <p className="font-sans text-brand-dark-grey/75 text-sm sm:text-base leading-relaxed font-normal whitespace-normal lg:whitespace-nowrap">
             Browse through our classic sewing styles. Click on &ldquo;Order This Style&rdquo; to chat with us about tailoring it for you.
           </p>
-        </div>
-
-        {/* Filter Navigation Tab Bar */}
-        <div className="flex flex-wrap items-center justify-center gap-2 mb-10 max-w-3xl mx-auto">
-          {filterTabs.map((tab) => {
-            const isSelected = selectedCategory === tab.value;
-            return (
-              <button
-                key={tab.value}
-                onClick={() => setSelectedCategory(tab.value)}
-                className={`font-title text-[10px] sm:text-xs uppercase tracking-wider px-5 py-3 rounded-none transition-all duration-300 border font-bold cursor-pointer ${
-                  isSelected
-                    ? 'bg-[#500A15] border-[#500A15] text-white shadow-sm'
-                    : 'bg-white border-brand-gold/25 text-brand-dark-grey/80 hover:text-brand-burgundy hover:bg-brand-cream/5'
-                }`}
-              >
-                {tab.label}
-              </button>
-            );
-          })}
         </div>
 
         {/* List Grid - Card body always bright and visible */}
@@ -107,9 +71,6 @@ export default function Gallery() {
                   {/* Always Visible Card Details for Bright theme */}
                   <div className="p-5 flex-1 flex flex-col justify-between">
                     <div>
-                      <span className="font-title text-[9px] uppercase tracking-wider text-brand-gold block font-bold mb-1.5">
-                        {item.category.replace('-', ' ')}
-                      </span>
                       <h3 className="font-serif text-lg text-brand-burgundy font-bold mb-2">
                         {item.name}
                       </h3>

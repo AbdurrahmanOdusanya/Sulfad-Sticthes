@@ -81,7 +81,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     name: 'The Sovereign Agbada',
     category: 'agbada',
     description: 'Royal emerald three-piece Agbada featuring hand-stitched premium gold filigree motifs and crisp structural shoulders.',
-    image: 'https://images.unsplash.com/photo-1620932934088-fbdb2920e484?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/9QkzKCRD/download-(1).jpg',
     priceTag: 'Royal Selection',
   },
   {
@@ -89,7 +89,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     name: 'Imperial Black Senator',
     category: 'senator-wears',
     description: 'High-contrast midnight back Senator with geometrical accent lines along the placket, reflecting power and quiet luxury.',
-    image: 'https://images.unsplash.com/photo-1607990283143-e81e7a2c93ab?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/dVfDpwkw/download-(4).jpg',
     priceTag: 'Bestseller',
   },
   {
@@ -97,7 +97,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     name: 'Ivory Royale Kaftan',
     category: 'kaftans',
     description: 'Minimalist sand-white kaftan tailored with custom hidden-button placket and textured linen structure, embodying pure refinement.',
-    image: 'https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/cLz620gn/Kaftan.jpg',
     priceTag: 'Presidential',
   },
   {
@@ -105,7 +105,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     name: 'Groom’s Heirloom Velvet Ensemble',
     category: 'wedding',
     description: 'Unparralled custom bridal native outfit with rich velvet overlays, gold thread embroidery, and matching structural cap.',
-    image: 'https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/SR4nddX2/yORUBA_CAPS.jpg',
     priceTag: 'Exclusive Wedding',
   },
   {
@@ -113,7 +113,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     name: 'Executive Charcoal Set',
     category: 'corporate',
     description: 'Slate grey wool-blend corporate native wear featuring a tapered cut, flat-front trousers, and ergonomic stretch tailoring.',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/cLz620gn/Kaftan.jpg',
     priceTag: 'Executive',
   },
   {
@@ -121,7 +121,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     name: 'Sunset Gold Agbada',
     category: 'agbada',
     description: 'A masterpiece of classic mustard-gold silk damask with concentric hand-guided patterns, curated for timeless celebration.',
-    image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/52rjTbYf/AGBADA.jpg',
     priceTag: 'Heirloom',
   },
   {
@@ -129,7 +129,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     name: 'Classic Off-White Senator',
     category: 'senator-wears',
     description: 'Perfect daily-elegance cream senator suit with subtle wood-grain buttons and geometric collar piping.',
-    image: 'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/P57N9Tpf/DANSIKI.jpg',
     priceTag: 'Modernist',
   },
   {
@@ -137,7 +137,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     name: 'Bespoke Ceremony Kaftan',
     category: 'wedding',
     description: 'Exquisite champagne gold wedding reception kaftan with symmetrical side embroidery and luxurious drape.',
-    image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/t4c7wpZy/AGBADA_2.jpg',
     priceTag: 'Signature Groom',
   }
 ];

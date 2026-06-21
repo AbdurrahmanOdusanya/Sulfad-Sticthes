@@ -87,8 +87,8 @@ export default function Services() {
         </div>
 
         {/* Dynamic event footnote simplified */}
-        <div className="mt-12 text-center max-w-md mx-auto">
-          <p className="font-sans text-xs text-brand-dark-grey/60">
+        <div className="mt-12 text-center max-w-md lg:max-w-none mx-auto">
+          <p className="font-sans text-xs text-brand-dark-grey/60 lg:whitespace-nowrap">
             Need custom sewing for weddings or family occasions? We offer nice fabric coordination and early delivery.
           </p>
           <a
