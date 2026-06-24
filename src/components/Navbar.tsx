@@ -30,24 +30,25 @@ export default function Navbar({ activeSection }: NavbarProps) {
 
   const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, target: string) => {
     e.preventDefault();
+    
+    // 1. Instantly close the mobile menu to prevent layout updates from interrupting scroll thread
+    if (isOpen) {
+      setIsOpen(false);
+    }
+
     const element = document.querySelector(target);
     if (element) {
       const offset = 80; // height of navbar
       const elementPosition = element.getBoundingClientRect().top + window.scrollY;
       const offsetPosition = elementPosition - offset;
 
-      // 1. Immediately trigger the smooth scroll
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-
-      // 2. Safely close the mobile menu after a tiny delay so that the browser's scroll interaction is not cancelled or interrupted
-      if (isOpen) {
-        setTimeout(() => {
-          setIsOpen(false);
-        }, 150);
-      }
+      // 2. Scroll smoothly on a tiny timeout, giving the mobile device a brief instant to register touch release
+      setTimeout(() => {
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }, 50);
     }
   };
 
