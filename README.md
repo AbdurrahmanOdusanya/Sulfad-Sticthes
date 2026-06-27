@@ -24,18 +24,18 @@
 
 ##  Features
 
-- **Interactive Lookbook** — Dynamic display of fashion collections and custom designs
-- **Service Catalog** — Detailed breakdown of tailoring, styling, and alteration services
-- **Fully Responsive** — Optimized across mobile, tablet, and desktop devices
-- **Modern UI/UX** — Clean, elegant design tailored to a premium fashion brand
-- **Contact & Booking** — Easy navigation for client inquiries and appointment booking
+- **Interactive Lookbook** : Dynamic display of fashion collections and custom designs
+- **Service Catalog** : Detailed breakdown of tailoring, styling, and alteration services
+- **Fully Responsive** : Optimized across mobile, tablet, and desktop devices
+- **Modern UI/UX** : Clean, elegant design tailored to a premium fashion brand
+- **Contact & Booking** : Easy navigation for client inquiries and appointment booking
 ---
 
 ##  Technologies Used
 
-- **TypeScript** — Type-safe, reliable, and scalable codebase
-- **HTML5 & CSS3** — Semantic structure with elegant, custom styling
-- **Netlify** — Fast, automated, and secure cloud hosting
+- **TypeScript** : Type-safe, reliable, and scalable codebase
+- **HTML5 & CSS3** : Semantic structure with elegant, custom styling
+- **Netlify** : Fast, automated, and secure cloud hosting
 
 ---
 
