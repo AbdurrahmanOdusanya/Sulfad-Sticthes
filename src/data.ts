@@ -86,10 +86,10 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g2',
-    name: 'Pinstripe Senator Wear',
+    name: 'Charcoal Grey Senator Wear',
     category: 'senator-wears',
-    description: 'Black pinstripe senator wear with a contrast pocket and leaf-style embroidery. Sharp and corporate, good for the office.',
-    image: 'https://i.postimg.cc/dVfDpwkw/download-(4).jpg',
+    description: 'Clean charcoal grey long-sleeve senator top with vertical panel stitching, silver button details, and a bold geometric embroidery patch on the chest pocket. Paired with a navy, wine, and gold striped Yoruba fila cap for a sharp, complete native look. Simple, elegant, and perfect for any occasion.',
+    image: 'https://i.postimg.cc/HsLy9tvG/QAREEB-WEAR.jpg',
     priceTag: 'Bestseller',
   },
   {
@@ -161,11 +161,11 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     id: 't3',
-    name: 'Engr. Sulaimon Yusuf',
-    role: 'Tech Lead',
+    name: 'Abdul Gafar Qareeb',
+    role: 'CEO SoftClick Gadgets',
     location: 'Abeokuta, Nigeria',
     quote: "Excellent tailoring and highly professional customer service. From the precise measurements to the early delivery, Sulfad Stitches represents pure luxury and premium reliability.",
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=150',
+    image: 'https://i.postimg.cc/wTssrBzk/QAREEB-WEAR-headshot.jpg',
   }
 ];
 
