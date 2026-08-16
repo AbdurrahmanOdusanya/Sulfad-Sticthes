@@ -136,40 +136,47 @@ export default function Hero() {
 
           {/* Right Image/Visual Lookbook Highlight */}
           <div className="lg:col-span-5 relative w-full flex justify-center">
-            <motion.div
-              initial={{ opacity: 0, x: 40, scale: 0.98 }}
-              animate={{ opacity: 1, x: 0, scale: 1 }}
-              transition={{ duration: 0.9, ease: 'easeOut' }}
-              className="relative w-full max-w-[380px] aspect-[3/4] rounded-none overflow-hidden border border-brand-gold/30 shadow-xl group"
-            >
-              <div className="absolute inset-0 bg-gradient-to-t from-brand-burgundy/80 via-transparent to-transparent z-10 pointer-events-none" />
+            <div className="relative w-full max-w-[380px]">
+              <motion.div
+                initial={{ opacity: 0, y: 30, scale: 0.98 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                transition={{ duration: 0.9, ease: 'easeOut' }}
+                className="relative w-full aspect-[3/4] rounded-none overflow-hidden border border-brand-gold/30 shadow-xl group"
+              >
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-burgundy/80 via-transparent to-transparent z-10 pointer-events-none" />
 
-              <img
-                src="https://i.postimg.cc/hvNGX09w/download.jpg"
-                alt="Men's Premium Custom White Native Outfit"
-                referrerPolicy="no-referrer"
-                className="w-full h-full object-cover transform scale-102 group-hover:scale-100 transition-transform duration-700"
-              />
+                <img
+                  src="https://i.postimg.cc/hvNGX09w/download.jpg"
+                  alt="Men's Premium Custom White Native Outfit"
+                  referrerPolicy="no-referrer"
+                  className="w-full h-full object-cover transform scale-102 group-hover:scale-100 transition-transform duration-700"
+                />
 
-              {/* Product Info Box */}
-              <div className="absolute bottom-5 left-5 right-5 p-4 rounded-none bg-white/95 border border-brand-gold/25 z-20 shadow-lg">
-                <p className="font-serif text-sm text-brand-burgundy font-bold tracking-wide">
-                  Classic White Native Outfit
-                </p>
-                <p className="font-sans text-[11px] text-brand-dark-grey/80 mt-1 leading-normal font-light">
-                  Sewn with perfect necklines and high quality fabric for your comfort.
-                </p>
-                <div className="flex justify-between items-center mt-3 pt-2.5 border-t border-brand-gold/15">
-                  <span className="font-title text-[9px] tracking-wider text-brand-dark-grey/40 font-bold">EVERY STITCH MATTERS</span>
-                  <span className="font-title text-[10px] text-brand-gold font-bold">SULFAD STITCHES</span>
+                {/* Product Info Box */}
+                <div className="absolute bottom-4 left-4 right-4 sm:bottom-5 sm:left-5 sm:right-5 p-3.5 sm:p-4 rounded-none bg-white/95 border border-brand-gold/25 z-20 shadow-lg">
+                  <p className="font-serif text-xs sm:text-sm text-brand-burgundy font-bold tracking-wide">
+                    Classic White Native Outfit
+                  </p>
+                  <p className="font-sans text-[10px] sm:text-[11px] text-brand-dark-grey/80 mt-1 leading-normal font-light">
+                    Sewn with perfect necklines and high quality fabric for your comfort.
+                  </p>
+                  <div className="flex justify-between items-center mt-2.5 sm:mt-3 pt-2 sm:pt-2.5 border-t border-brand-gold/15">
+                    <span className="font-title text-[8px] sm:text-[9px] tracking-wider text-brand-dark-grey/40 font-bold">EVERY STITCH MATTERS</span>
+                    <span className="font-title text-[9px] sm:text-[10px] text-brand-gold font-bold">SULFAD STITCHES</span>
+                  </div>
                 </div>
-              </div>
-            </motion.div>
+              </motion.div>
 
-            {/* Floating Location coordinates */}
-            <div className="hidden sm:block absolute top-[10%] left-[-30px] p-2.5 bg-brand-burgundy text-white border border-brand-gold/30 shadow-md z-20">
-              <span className="font-title text-[9px] uppercase tracking-wider block font-bold">Showroom</span>
-              <span className="font-sans text-[10px] block opacity-90 font-light">Oke-Ilewo, Abeokuta</span>
+              {/* Floating Location coordinates badge - Fully responsive on mobile, tablet, and desktop */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6, delay: 0.4 }}
+                className="absolute top-3 left-3 sm:-top-3 sm:-left-4 lg:top-6 lg:-left-6 px-3 py-2 bg-brand-burgundy text-white border border-brand-gold/40 shadow-xl z-30 flex flex-col items-start"
+              >
+                <span className="font-title text-[9px] sm:text-[10px] uppercase tracking-widest block font-bold text-brand-gold">Showroom</span>
+                <span className="font-sans text-[10px] sm:text-xs block text-white/95 font-medium whitespace-nowrap">Oke-Ilewo, Abeokuta</span>
+              </motion.div>
             </div>
           </div>
 

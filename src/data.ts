@@ -139,6 +139,38 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     description: 'Grey kaftan with a bold black-and-grey geometric pattern on the collar and chest. Great for events and ceremonies.',
     image: 'https://i.postimg.cc/t4c7wpZy/AGBADA_2.jpg',
     priceTag: 'Signature Groom',
+  },
+  {
+    id: 'g9',
+    name: 'Sky Blue Senator Wear',
+    category: 'senator-wears',
+    description: 'Sky blue senator with a soft dotted pattern all over. Navy blue and gold embroidery on the chest and front. Neat collar with side slits. Simple and stylish for daily wear.',
+    image: 'https://i.postimg.cc/HsrwhPZV/Whats-App-Image-2026-08-12-at-9-34-51-AM.jpg',
+    priceTag: 'Popular Choice',
+  },
+  {
+    id: 'g10',
+    name: 'Off White Embroidered Kaftan',
+    category: 'kaftans',
+    description: 'Off White kaftan with gold and white embroidery down the front and on the pocket. Clean collar, straight cut. Smart and simple for any occasion.',
+    image: 'https://i.postimg.cc/kX2Qph14/Whats-App-Image-2026-08-12-at-9-33-48-AM.jpg',
+    priceTag: 'Signature Kaftan',
+  },
+  {
+    id: 'g11',
+    name: 'Navy Blue Aso-Oke Agbada',
+    category: 'agbada',
+    description: 'Navy and blue patterned agbada with bold woven design throughout, similar to Aso-Oke style. Chest has blue star embroidery. Wide sleeves, big flowing fit. Comes with a matching cap. Great for special events.',
+    image: 'https://i.postimg.cc/gkxVTBSw/Whats-App-Image-2026-08-12-at-9-34-24-AM.jpg',
+    priceTag: 'Aso-Oke Royal',
+  },
+  {
+    id: 'g12',
+    name: 'White Embroidered Senator',
+    category: 'senator-wears',
+    description: 'White senator with gold and white embroidery down the front and pocket. Neat collar, smooth fabric. Soft and elegant for weddings or daytime wear.',
+    image: 'https://i.postimg.cc/NfK6zPJL/Whats-App-Image-2026-08-12-at-9-35-33-AM.jpg',
+    priceTag: 'Ceremonial',
   }
 ];
 
