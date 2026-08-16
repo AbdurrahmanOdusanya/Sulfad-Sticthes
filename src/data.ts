@@ -88,7 +88,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g2',
     name: 'Charcoal Grey Senator Wear',
     category: 'senator-wears',
-    description: 'Clean charcoal grey long-sleeve senator top with vertical panel stitching, silver button details, and a bold geometric embroidery patch on the chest pocket. Paired with a navy, wine, and gold striped Yoruba fila cap for a sharp, complete native look. Simple, elegant, and perfect for any occasion.',
+    description: 'Charcoal grey long-sleeve senator top with panel stitching, silver buttons, and chest embroidery patch, styled with a navy, wine, and gold striped fila. Sharp and elegant for any occasion.',
     image: 'https://i.postimg.cc/HsLy9tvG/QAREEB-WEAR.jpg',
     priceTag: 'Bestseller',
   },
