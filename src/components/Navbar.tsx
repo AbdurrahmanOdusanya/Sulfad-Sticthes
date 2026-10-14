@@ -22,9 +22,7 @@ export default function Navbar({ activeSection }: NavbarProps) {
   const navItems = [
     { label: 'Home', target: '#home' },
     { label: 'About', target: '#about' },
-    { label: 'Services', target: '#services' },
     { label: 'Gallery', target: '#gallery' },
-    { label: 'Testimonials', target: '#testimonials' },
     { label: 'Contact', target: '#contact' },
   ];
 

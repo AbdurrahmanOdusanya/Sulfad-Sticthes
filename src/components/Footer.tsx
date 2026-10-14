@@ -13,9 +13,7 @@ export default function Footer() {
   const footerLinks = [
     { label: 'Home', target: '#home' },
     { label: 'Our Brand', target: '#about' },
-    { label: 'Services', target: '#services' },
     { label: 'Our Works', target: '#gallery' },
-    { label: 'Testimonials', target: '#testimonials' },
     { label: 'Contact Us', target: '#contact' },
   ];
 
